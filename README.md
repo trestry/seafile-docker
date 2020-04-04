@@ -3,7 +3,7 @@ This is a direct port of the official docker files for seafile to the Raspberry 
 At the moment, they are not uploaded to the registry. Feel free to clone the repo and call make in ./images yourself.
 ```sh
 git clone https://github.com/trestry/seafile-docker.git
-cd ./seafile-docker-pi/image
+cd ./seafile-docker/image
 make base && make server 
 ```
 
